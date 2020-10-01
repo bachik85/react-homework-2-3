@@ -1,0 +1,23 @@
+.header {
+  padding: 20px;
+  width: 90%;
+  background-color: chocolate;
+  margin: 0 auto;
+  font-size: 20px;
+
+  a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 0 25px;
+    border-left: 2px solid darkslategray;
+    padding: 5px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.2);
+    }
+  }
+}
+
